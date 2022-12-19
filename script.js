@@ -7,6 +7,7 @@ function generatePassword() {
   var chars = "";
   var letters = "abcdefghijklmnopqrstuvwxyz";
   var numbers = "0123456789";
+  //used all special characters referenced at https://owasp.org/www-community/password-special-characters but removed the space
   var specials = "!\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~";
   var passLen = 8;
   //prompts to enter a length for password
