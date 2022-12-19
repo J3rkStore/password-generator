@@ -12,3 +12,12 @@ function writePassword() {
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
+
+// testing to see how to get javascript to do something if the button is clicked
+document.getElementById("#generate").addEventListener("click", function () {
+  alert("You clicked me");
+});
+
+alert("test alert");
+document.write("please do something");
+console.log("please");
