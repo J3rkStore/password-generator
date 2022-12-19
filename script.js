@@ -42,6 +42,12 @@ function generatePassword() {
   if (confirm("would you like special characters in your password?")) {
     chars += specials;
   }
+  if (chars == "") {
+    chars += letters + numbers;
+    alert(
+      "since you didn't select any criteria, your password will contain lowercase letters and numbers"
+    );
+  }
   //adds random characters from the string "chars" to the "result", which will be our password
   for (var i = 0; i < passLen; i++) {
     result += chars.charAt(Math.floor(Math.random() * chars.length));
