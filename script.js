@@ -7,7 +7,7 @@ function generatePassword() {
   var chars = "";
   var letters = "abcdefghijklmnopqrstuvwxyz";
   var numbers = "0123456789";
-  var specials = " !\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~";
+  var specials = "!\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~";
   var passLen = 8;
   //prompts to enter a length for password
   passLen = prompt(
